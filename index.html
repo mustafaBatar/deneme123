@@ -1,11 +1,14 @@
 <html>
 <body>
 
+<canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
 
-<figure>
-  <img src=s.jpg alt="Scarlett Johansson" width=40% height=57%>
-  <figcaption><b>Fig.1 - Scarlett Johansson.<b></figcaption>
-</figure>
+<script>
+var c=document.getElementById('myCanvas');
+var ctx=c.getContext('2d');
+ctx.fillStyle="blue";
+ctx.fillRect(10,10,100,200);
+</script>
 
 </body>
 </html>
